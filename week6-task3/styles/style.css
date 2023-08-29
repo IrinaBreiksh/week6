@@ -1,0 +1,173 @@
+.container {
+    max-width: 1475px;
+    margin: 0 auto;
+}
+
+/* header начало */
+
+.header {
+    align-items: center;
+    padding-top: 32px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header конец */
+/* main начало */
+
+.main {
+    background-color: #FFB30E;
+}
+
+h1 {
+    padding-top: 45px;
+    font-size: 88px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.main-title {
+    /* padding-bottom: 25px; */
+}
+
+.main-order {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #FFB30E; */
+}
+
+.main-found {}
+
+form {
+
+    margin-top: 60px;
+    padding: 24px;
+    align-self: flex-start;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.main-delivery {
+    margin-right: 16px;
+    width: 148px;
+    height: 38px;
+}
+
+.main-pick-up {
+    width: 129px;
+    height: 38px;
+}
+
+.form-1 {
+
+    padding: 7px;
+}
+
+hr {
+
+    width: 800px;
+}
+
+.main-address {
+
+    width: 593px;
+    height: 49px;
+}
+
+.main-find-food {
+    width: 199px;
+    height: 60px;
+}
+
+input::placeholder {
+    background: url(./images/search-marker.svg) no-repeat;
+    padding-left: 24px;
+}
+
+
+/* placeholder {
+    margin-left: 8px;
+} */
+
+/* img {
+    width: 497px;
+    height: 497px;
+    /* padding-top: 150px; */
+/* background-image: url('./images/bowl-main-image.jpg'); */
+/* background-size: cover;
+    display: block;
+    border-radius: 50%;
+
+} */
+.article-title {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.article {}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 357px;
+    margin-bottom: 16px;
+}
+
+.card-info {
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+
+
+
+}
+
+.card-name {
+    /* padding-bottom: 8px; */
+    /* display: flex;
+    align-items: baseline; */
+    /* flex-direction: column; */
+    */
+    /* grid-template-rows: 50% 50%; */
+}
+
+.card-review {}
+
+.card-schedule {
+    background-color: #f5d0b4;
+
+
+    width: 196px;
+    padding: 8px;
+}
+
+.article-button {
+    margin-top: 120px;
+
+
+}
+
+.img {}
+
+
+
+
+
+
+.footer {}
